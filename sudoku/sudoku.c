@@ -10,7 +10,7 @@
  * been set to 1. If yes, the solution is valid. If not, solution is invalid.
  */
 #include <stdio.h>	//Entrada y salida
-#include <stdlib.h> //Gestión de memoria dinámica, control de procesos y otras.
+#include <stdlib.h> //Gestión de memoria dinámica, control de procesos y otras
 #include <unistd.h> //Funciones de POSIX
 #include <pthread.h> //Hilos
 #define num_threads 27 //Numero de hilos, 9 para filas, 9 para columnas y 9 para subsecciones 3x3
